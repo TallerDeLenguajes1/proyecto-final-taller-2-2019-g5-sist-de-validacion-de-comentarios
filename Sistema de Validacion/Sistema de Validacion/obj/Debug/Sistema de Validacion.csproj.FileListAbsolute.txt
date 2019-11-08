@@ -1,1 +1,2 @@
 F:\Taller 2\Proyecto final\Sistema de Validacion\Sistema de Validacion\bin\Debug\Sistema de Validacion.exe.config
+C:\Users\Alumno.LABAPC14\proyecto-final-taller-2-2019-g5-sist-de-validacion-de-comentarios\Sistema de Validacion\Sistema de Validacion\bin\Debug\Sistema de Validacion.exe.config
