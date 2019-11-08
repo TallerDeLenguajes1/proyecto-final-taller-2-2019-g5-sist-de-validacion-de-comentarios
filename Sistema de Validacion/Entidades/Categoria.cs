@@ -13,7 +13,7 @@ namespace Entidades
 
     public class Neutral : Categoria
     {
-        public static float CalcularPeso(int puntos)
+        public static int CalcularPeso(int puntos)
         {
 
         }
@@ -21,15 +21,21 @@ namespace Entidades
 
     public class Pesimista: Categoria
     {
-        public static float CalcularPeso(int puntos)
+        public static int CalcularPeso(int puntos)
         {
+            int peso;
 
+            if(CalificarComentario() == "Negativo")
+            {
+                peso = puntos / 2;
+            }
+            return peso;
         }
     }
 
     public class Optimista : Categoria
     {
-        public static float CalcularPeso(int puntos)
+        public static int CalcularPeso(int puntos)
         {
 
         }
