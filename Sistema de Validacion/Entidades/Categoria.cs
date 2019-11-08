@@ -6,7 +6,32 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-    class Categoria
+    public class Categoria
     {
+        public static float CalcularPeso(int puntos) { }
+    }
+
+    public class Neutral : Categoria
+    {
+        public static float CalcularPeso(int puntos)
+        {
+
+        }
+    }
+
+    public class Pesimista: Categoria
+    {
+        public static float CalcularPeso(int puntos)
+        {
+
+        }
+    }
+
+    public class Optimista : Categoria
+    {
+        public static float CalcularPeso(int puntos)
+        {
+
+        }
     }
 }
