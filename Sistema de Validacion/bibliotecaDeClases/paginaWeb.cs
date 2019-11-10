@@ -62,13 +62,13 @@ namespace bibliotecaDeClases
             
         }
         
-        private void nuevoComentario(comentario nuevoComentario)// agrega el nuevo comentario a la lista de comentarios de la pagina
+        private void nuevoComentario(Comentario nuevoComentario)// agrega el nuevo comentario a la lista de comentarios de la pagina
         {
 
             listaDeComentarios.Add(nuevoComentario);
 
         }
-        private void validarComentario(comentario comentarioAValidar// se encarga de determinar si el comentario es valido o no
+        /*private void validarComentario(Comentario comentarioAValidar)// se encarga de determinar si el comentario es valido o no
         {
             if(listaDeComentadores.Contains(comentarioAValidar.duenio))//aqui verifica que el usuario que comento sea un comentador valido
             {
@@ -79,7 +79,7 @@ namespace bibliotecaDeClases
                 comentarioAValidar.esValido = false;
             }
             //basicamente se en carga de darle estado de validez a los comentarios
-        }
+        }*/
         
 
         

@@ -12,7 +12,7 @@ namespace bibliotecaDeClases
        private string rubro;
        private string razonSocial;
        private List<string> redesSociales;
-       administrador admin;
+       Administrador admin;
 
         public string Nombre
         {
@@ -66,7 +66,7 @@ namespace bibliotecaDeClases
             }
         }
 
-        public administrador Admin
+        public Administrador Admin
         {
             get
             {

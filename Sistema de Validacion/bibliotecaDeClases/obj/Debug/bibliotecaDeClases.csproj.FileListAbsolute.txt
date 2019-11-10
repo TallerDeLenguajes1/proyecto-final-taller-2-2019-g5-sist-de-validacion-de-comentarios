@@ -1,0 +1,5 @@
+G:\repo\Sistema de Validacion\bibliotecaDeClases\obj\Debug\bibliotecaDeClases.csprojAssemblyReference.cache
+G:\repo\Sistema de Validacion\bibliotecaDeClases\bin\Debug\bibliotecaDeClases.dll
+G:\repo\Sistema de Validacion\bibliotecaDeClases\bin\Debug\bibliotecaDeClases.pdb
+G:\repo\Sistema de Validacion\bibliotecaDeClases\obj\Debug\bibliotecaDeClases.dll
+G:\repo\Sistema de Validacion\bibliotecaDeClases\obj\Debug\bibliotecaDeClases.pdb
