@@ -66,7 +66,7 @@ namespace bibliotecaDeClases
                 puntuacion = value;
             }
         }
-
+        
         public DateTime FechaRealizado
         {
             get
@@ -90,6 +90,17 @@ namespace bibliotecaDeClases
             set
             {
                 esValido = value;
+            }
+        }
+        public Comentador comentarioDuenio
+        {
+            get
+            {
+                return comentarioDuenio;
+            }
+            set
+            {
+                comentarioDuenio = value;
             }
         }
     }

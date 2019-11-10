@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace bibliotecaDeClases
 {
-    class paginaWeb
+    class PaginaWeb
     {
         private bool estadoComentarios;
 
@@ -14,7 +14,7 @@ namespace bibliotecaDeClases
 
         List<Comentador> listaDeComentadores;
 
-        empresa empresaPropietaria;
+        Empresa empresaPropietaria;
 
         public bool EstadoComentarios// activa o desactiva comentarios de la pagina web
         {
@@ -68,18 +68,18 @@ namespace bibliotecaDeClases
             listaDeComentarios.Add(nuevoComentario);
 
         }
-        /*private void validarComentario(Comentario comentarioAValidar)// se encarga de determinar si el comentario es valido o no
+        private void validarComentario(Comentario comentarioAValidar)// se encarga de determinar si el comentario es valido o no
         {
-            if(listaDeComentadores.Contains(comentarioAValidar.duenio))//aqui verifica que el usuario que comento sea un comentador valido
+            if(listaDeComentadores.Contains(comentarioAValidar.comentarioDuenio))//aqui verifica que el usuario que comento sea un comentador valido
             {
-                comentarioAValidar.esValido = true;
+                comentarioAValidar.EsValido = true;
             }
             else
             {
-                comentarioAValidar.esValido = false;
+                comentarioAValidar.EsValido = false;
             }
             //basicamente se en carga de darle estado de validez a los comentarios
-        }*/
+        }
         
 
         

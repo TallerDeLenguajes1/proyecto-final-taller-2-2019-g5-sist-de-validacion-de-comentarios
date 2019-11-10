@@ -81,7 +81,7 @@ namespace bibliotecaDeClases
 
         private void PorcentajeComentarios(DateTime inicio, DateTime fin)//
         {
-
+            PaginaWeb lista;
         }
         
     }

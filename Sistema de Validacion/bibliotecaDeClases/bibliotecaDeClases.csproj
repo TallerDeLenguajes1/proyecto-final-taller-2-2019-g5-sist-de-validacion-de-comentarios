@@ -45,8 +45,8 @@
     <Compile Include="Class1.cs" />
     <Compile Include="Comentador.cs" />
     <Compile Include="Comentario.cs" />
-    <Compile Include="empresa.cs" />
-    <Compile Include="paginaWeb.cs" />
+    <Compile Include="Empresa.cs" />
+    <Compile Include="PaginaWeb.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
