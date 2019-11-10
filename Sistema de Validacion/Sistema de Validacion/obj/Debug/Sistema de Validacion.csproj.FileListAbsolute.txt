@@ -1,2 +1,19 @@
 F:\Taller 2\Proyecto final\Sistema de Validacion\Sistema de Validacion\bin\Debug\Sistema de Validacion.exe.config
 C:\Users\Alumno.LABAPC14\proyecto-final-taller-2-2019-g5-sist-de-validacion-de-comentarios\Sistema de Validacion\Sistema de Validacion\bin\Debug\Sistema de Validacion.exe.config
+G:\repo\Sistema de Validacion\Sistema de Validacion\obj\Debug\Sistema de Validacion.csprojAssemblyReference.cache
+G:\repo\Sistema de Validacion\Sistema de Validacion\obj\Debug\MainWindow.g.cs
+G:\repo\Sistema de Validacion\Sistema de Validacion\obj\Debug\App.g.cs
+G:\repo\Sistema de Validacion\Sistema de Validacion\obj\Debug\Sistema de Validacion_MarkupCompile.cache
+G:\repo\Sistema de Validacion\Sistema de Validacion\obj\Debug\Sistema de Validacion_MarkupCompile.lref
+G:\repo\Sistema de Validacion\Sistema de Validacion\bin\Debug\Sistema de Validacion.exe.config
+G:\repo\Sistema de Validacion\Sistema de Validacion\bin\Debug\Sistema de Validacion.exe
+G:\repo\Sistema de Validacion\Sistema de Validacion\bin\Debug\Sistema de Validacion.pdb
+G:\repo\Sistema de Validacion\Sistema de Validacion\bin\Debug\bibliotecaDeClases.dll
+G:\repo\Sistema de Validacion\Sistema de Validacion\bin\Debug\bibliotecaDeClases.pdb
+G:\repo\Sistema de Validacion\Sistema de Validacion\obj\Debug\MainWindow.baml
+G:\repo\Sistema de Validacion\Sistema de Validacion\obj\Debug\Sistema de Validacion.g.resources
+G:\repo\Sistema de Validacion\Sistema de Validacion\obj\Debug\Sistema_de_Validacion.Properties.Resources.resources
+G:\repo\Sistema de Validacion\Sistema de Validacion\obj\Debug\Sistema de Validacion.csproj.GenerateResource.cache
+G:\repo\Sistema de Validacion\Sistema de Validacion\obj\Debug\Sistema de Validacion.csproj.CopyComplete
+G:\repo\Sistema de Validacion\Sistema de Validacion\obj\Debug\Sistema de Validacion.exe
+G:\repo\Sistema de Validacion\Sistema de Validacion\obj\Debug\Sistema de Validacion.pdb

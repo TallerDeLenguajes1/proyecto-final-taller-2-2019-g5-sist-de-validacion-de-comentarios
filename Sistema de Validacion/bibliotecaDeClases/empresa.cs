@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace bibliotecaDeClases
 {
-    class empresa
+    class Empresa
     {
        private string nombre;
        private string rubro;
