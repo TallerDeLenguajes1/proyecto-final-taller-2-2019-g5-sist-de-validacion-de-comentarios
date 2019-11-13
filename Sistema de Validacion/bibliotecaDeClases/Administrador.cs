@@ -10,7 +10,7 @@ namespace bibliotecaDeClases
     {
         int idAdministrador;
         string nombre;
-
+        PaginaWeb pagina;
 
 
         private int idAdministrador1;
@@ -18,6 +18,7 @@ namespace bibliotecaDeClases
 
         public int IdAdministrador { get => idAdministrador1; set => idAdministrador1 = value; }
         public string Nombre { get => nombre1; set => nombre1 = value; }
+        internal PaginaWeb Pagina { get => pagina; set => pagina = value; }
 
         public Administrador(int idAdministrador, string nombre)
         {
@@ -25,10 +26,10 @@ namespace bibliotecaDeClases
             this.nombre = nombre;
         }
 
-        /*public static void AgregarComentador(Comentador nuevoComentador)
+        public static void AgregarComentador(Comentador nuevoComentador)
         {
-
-        }*/
+            
+        }
 
         public static void EstadoDeComentarios()
         {
