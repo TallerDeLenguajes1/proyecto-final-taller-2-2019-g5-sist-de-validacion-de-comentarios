@@ -31,9 +31,12 @@ namespace bibliotecaDeClases
             
         }
 
-        public static void EstadoDeComentarios()
+        public static void EstadoDeComentarios(PaginaWeb pagina)
         {
-
+            if (pagina.EstadoComentarios)
+                pagina.EstadoComentarios=false;
+            else
+                pagina.EstadoComentarios=true;
         }
 
     }
