@@ -30,6 +30,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="PresentationFramework" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -45,6 +46,7 @@
     <Compile Include="Class1.cs" />
     <Compile Include="Comentador.cs" />
     <Compile Include="Comentario.cs" />
+    <Compile Include="Conexion.cs" />
     <Compile Include="Empresa.cs" />
     <Compile Include="PaginaWeb.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
