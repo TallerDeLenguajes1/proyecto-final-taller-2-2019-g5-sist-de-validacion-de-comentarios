@@ -1,1 +1,8 @@
 F:\Taller 2\Proyecto final\Sistema de Validacion\Sistema de Validacion\bin\Debug\Sistema de Validacion.exe.config
+C:\Users\Isabella\Desktop\proyecto-final-taller-2-2019-g5-sist-de-validacion-de-comentarios-nico\Sistema de Validacion\Sistema de Validacion\obj\Debug\Sistema de Validacion.csprojAssemblyReference.cache
+C:\Users\Isabella\Desktop\proyecto-final-taller-2-2019-g5-sist-de-validacion-de-comentarios-nico\Sistema de Validacion\Sistema de Validacion\obj\Debug\MainWindow.g.cs
+C:\Users\Isabella\Desktop\proyecto-final-taller-2-2019-g5-sist-de-validacion-de-comentarios-nico\Sistema de Validacion\Sistema de Validacion\obj\Debug\Vistas\VistaComentario.g.cs
+C:\Users\Isabella\Desktop\proyecto-final-taller-2-2019-g5-sist-de-validacion-de-comentarios-nico\Sistema de Validacion\Sistema de Validacion\obj\Debug\Vistas\VistaRegistro.g.cs
+C:\Users\Isabella\Desktop\proyecto-final-taller-2-2019-g5-sist-de-validacion-de-comentarios-nico\Sistema de Validacion\Sistema de Validacion\obj\Debug\App.g.cs
+C:\Users\Isabella\Desktop\proyecto-final-taller-2-2019-g5-sist-de-validacion-de-comentarios-nico\Sistema de Validacion\Sistema de Validacion\obj\Debug\Sistema de Validacion_MarkupCompile.cache
+C:\Users\Isabella\Desktop\proyecto-final-taller-2-2019-g5-sist-de-validacion-de-comentarios-nico\Sistema de Validacion\Sistema de Validacion\obj\Debug\Sistema de Validacion_MarkupCompile.lref

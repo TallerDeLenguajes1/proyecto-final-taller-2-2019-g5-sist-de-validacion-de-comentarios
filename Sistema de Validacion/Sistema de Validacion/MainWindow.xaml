@@ -5,8 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Sistema_de_Validacion"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
+        Title="MainWindow" Height="350" Width="591.182">
+    <Grid HorizontalAlignment="Left" Width="583">
+        <Button Name="botonLogeo" Content="Logearse" HorizontalAlignment="Left" Margin="79,154,0,0" VerticalAlignment="Top" Width="157" Height="36" Background="#FF9B14B0" BorderBrush="#FF46164D" FontSize="16" FontFamily="Arial" Foreground="White"/>
+        <Button Name="botonRegistro" Content="Registrarse" Margin="352,154,74,0" VerticalAlignment="Top" Height="36" Background="#FF9B14B0" BorderBrush="#FF46164D" Foreground="White" FontSize="16" FontFamily="Arial"/>
+        <TextBlock HorizontalAlignment="Left" Margin="79,51,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="22" FontFamily="Arial Rounded MT Bold" TextAlignment="Center" Width="430" Foreground="#FF476DA2" Height="22"><Run Text="Sistema de V"/><Run Text="a"/><Run Text="lidación de Comentarios"/></TextBlock>
+
     </Grid>
 </Window>

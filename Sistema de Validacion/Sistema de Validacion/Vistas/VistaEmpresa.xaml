@@ -1,0 +1,31 @@
+﻿<Window x:Class="Sistema_de_Validacion.Vistas.VistaEmpresa"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Sistema_de_Validacion.Vistas"
+        mc:Ignorable="d"
+        Title="VistaEmpresa" Height="450" Width="500.545">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="61,48,0,0" TextWrapping="Wrap" Text="Registro Empresa" VerticalAlignment="Top" TextAlignment="Center" FontSize="22"/>
+        <TextBlock HorizontalAlignment="Left" Margin="61,129,0,0" TextWrapping="Wrap" Text="Nombre" VerticalAlignment="Top" FontSize="16"/>
+        <TextBlock HorizontalAlignment="Left" Margin="61,166,0,0" TextWrapping="Wrap" Text="Razón Social" VerticalAlignment="Top" FontSize="16"/>
+        <TextBlock HorizontalAlignment="Left" Margin="61,201,0,0" TextWrapping="Wrap" Text="Rubro" VerticalAlignment="Top" FontSize="16" RenderTransformOrigin="0.543,1.403"/>
+        <TextBlock HorizontalAlignment="Left" Margin="61,233,0,0" TextWrapping="Wrap" Text="Redes Sociales" VerticalAlignment="Top" FontSize="16"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="171,129,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="190" FontSize="16"/>
+        <TextBox HorizontalAlignment="Left" Height="21" Margin="171,166,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="190" FontSize="16"/>
+        <TextBox HorizontalAlignment="Left" Height="21" Margin="171,201,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="190" FontSize="16"/>
+        <Button Content="Aceptar" HorizontalAlignment="Left" Height="33" Margin="305,326,0,0" VerticalAlignment="Top" Width="139" Background="#FF9B14B0" Foreground="White" FontSize="16"/>
+        <GridSplitter HorizontalAlignment="Left" Height="371" Margin="229,-92,0,0" VerticalAlignment="Top" Width="5" RenderTransformOrigin="0.5,0.5" Background="#FF9B14B0">
+            <GridSplitter.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90.082"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </GridSplitter.RenderTransform>
+        </GridSplitter>
+
+    </Grid>
+</Window>

@@ -1,0 +1,2 @@
+C:\Users\Isabella\Desktop\proyecto-final-taller-2-2019-g5-sist-de-validacion-de-comentarios-nico\Sistema de Validacion\Biblioteca de Clases\obj\Debug\Biblioteca de Clases.csprojAssemblyReference.cache
+C:\Users\Isabella\Desktop\proyecto-final-taller-2-2019-g5-sist-de-validacion-de-comentarios-nico\Sistema de Validacion\Biblioteca de Clases\obj\Debug\Biblioteca de Clases.csproj.CoreCompileInputs.cache
