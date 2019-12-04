@@ -1,0 +1,25 @@
+﻿<Window x:Class="Sistema_de_Validacion.Vistas.VistaVerComentarios"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Sistema_de_Validacion.Vistas"
+        mc:Ignorable="d"
+        Title="VistaVerComentarios" Height="450" Width="800">
+    <Grid>
+        <Button Name="botonAceptar" Content="Aceptar" HorizontalAlignment="Left" Margin="358,344,0,0" VerticalAlignment="Top" Width="74"/>
+        <ComboBox Name="comboEmpresa" HorizontalAlignment="Left" Margin="108,78,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="ComboEmpresa_SelectionChanged"/>
+        <TextBlock HorizontalAlignment="Left" Margin="134,57,0,0" TextWrapping="Wrap" Text="Empresa" VerticalAlignment="Top"/>
+        <ListBox HorizontalAlignment="Left" Height="100" Margin="358,57,0,0" VerticalAlignment="Top" Width="271" SelectionChanged="ListBox_SelectionChanged"/>
+        <TextBlock HorizontalAlignment="Left" Margin="420,36,0,0" TextWrapping="Wrap" Text="Comentarios Pendientes" VerticalAlignment="Top"/>
+        <ListBox HorizontalAlignment="Left" Height="100" Margin="108,222,0,0" VerticalAlignment="Top" Width="198" SelectionChanged="ListBox_SelectionChanged_1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="134,201,0,0" TextWrapping="Wrap" Text="Comentarios Rechazados" VerticalAlignment="Top"/>
+        <ListBox HorizontalAlignment="Left" Height="100" Margin="512,222,0,0" VerticalAlignment="Top" Width="198" SelectionChanged="ListBox_SelectionChanged_2"/>
+        <TextBlock HorizontalAlignment="Left" Margin="556,201,0,0" TextWrapping="Wrap" Text="Comentarios Aceptados" VerticalAlignment="Top"/>
+        <Button Name="botonAceptarComentario" Content="Aceptar Comentario" HorizontalAlignment="Left" Margin="634,62,0,0" VerticalAlignment="Top" Width="127" IsEnabled="False"/>
+        <Button Name="botonRechazarComentario" Content="Rechazar Comentario" HorizontalAlignment="Left" Margin="635,108,0,0" VerticalAlignment="Top" Width="126" IsEnabled="False"/>
+        <Button x:Name="botonAceptarComentarioRechazado" Content="Aceptar Comentario" HorizontalAlignment="Left" Margin="134,328,0,0" VerticalAlignment="Top" Width="127" IsEnabled="False"/>
+        <Button x:Name="botonRechazarComentarioAceptado" Content="Rechazar Comentario" HorizontalAlignment="Left" Margin="556,328,0,0" VerticalAlignment="Top" Width="126" IsEnabled="False"/>
+
+    </Grid>
+</Window>
