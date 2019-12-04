@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Biblioteca_de_Clases
 {
-    class Comentador
+    public class Comentador
     {
         string ciudad;
 
@@ -152,5 +152,7 @@ namespace Biblioteca_de_Clases
                 tipoComentador = value;
             }
         }
+
+        
     }
 }

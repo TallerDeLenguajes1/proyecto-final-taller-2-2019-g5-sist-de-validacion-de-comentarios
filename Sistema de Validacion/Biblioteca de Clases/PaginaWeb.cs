@@ -55,9 +55,22 @@ namespace Biblioteca_de_Clases
             }
         }
 
+        internal Empresa EmpresaPropietaria
+        {
+            get
+            {
+                return empresaPropietaria;
+            }
+
+            set
+            {
+                empresaPropietaria = value;
+            }
+        }
+
         public void OfrecerRedesSociales()//si un comentario es positivo, muestra el listado de redes sociales de la empresa
         {
-            var redesSociales = empresaPropietaria.RedesSociales;
+            var redesSociales = EmpresaPropietaria.RedesSociales;
 
 
         }
@@ -70,7 +83,7 @@ namespace Biblioteca_de_Clases
         }
         private void validarComentario(Comentario comentarioAValidar)// se encarga de determinar si el comentario es valido o no
         {
-            if (listaDeComentadores.Contains(comentarioAValidar.comentarioDuenio))//aqui verifica que el usuario que comento sea un comentador valido
+            if (listaDeComentadores.Contains(comentarioAValidar.ComentadorDuenio))//aqui verifica que el usuario que comento sea un comentador valido
             {
                 comentarioAValidar.EsValido = true;
             }
@@ -85,4 +98,4 @@ namespace Biblioteca_de_Clases
 
     }
 }
-}
+

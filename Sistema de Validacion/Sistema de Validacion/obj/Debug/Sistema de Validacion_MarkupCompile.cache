@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Isabella\Desktop\proyecto-final-taller-2-2019-g5-sist-de-validacion-de-comentarios-nico\Sistema de Validacion\Sistema de Validacion\obj\Debug\
+E:\Repositorio\proyecto-final-taller-2-2019-g5-sist-de-validacion-de-comentarios\Sistema de Validacion\Sistema de Validacion\obj\Debug\
 Sistema_de_Validacion
 none
 false
 DEBUG;TRACE
-C:\Users\Isabella\Desktop\proyecto-final-taller-2-2019-g5-sist-de-validacion-de-comentarios-nico\Sistema de Validacion\Sistema de Validacion\App.xaml
-329063916
+E:\Repositorio\proyecto-final-taller-2-2019-g5-sist-de-validacion-de-comentarios\Sistema de Validacion\Sistema de Validacion\App.xaml
+61985571785
 
-71408639494
-14364397829
-MainWindow.xaml;Vistas\VistaComentario.xaml;Vistas\VistaRegistro.xaml;
+10-2042777195
+141436018221
+MainWindow.xaml;Vistas\VistaAdministrador.xaml;Vistas\VistaComentario.xaml;Vistas\VistaEmpresa.xaml;Vistas\VistaLogueo.xaml;Vistas\VistaRegistro.xaml;
 
-True
+False
 

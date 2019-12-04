@@ -92,15 +92,17 @@ namespace Biblioteca_de_Clases
                 esValido = value;
             }
         }
-        public Comentador comentarioDuenio
+
+        internal Comentador ComentadorDuenio
         {
             get
             {
-                return comentarioDuenio;
+                return comentadorDuenio;
             }
+
             set
             {
-                comentarioDuenio = value;
+                comentadorDuenio = value;
             }
         }
     }

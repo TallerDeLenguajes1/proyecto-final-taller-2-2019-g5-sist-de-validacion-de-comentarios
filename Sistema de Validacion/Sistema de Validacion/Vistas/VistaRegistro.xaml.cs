@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using Biblioteca_de_Clases;
 
 namespace Sistema_de_Validacion.Vistas
 {
@@ -19,9 +20,16 @@ namespace Sistema_de_Validacion.Vistas
     /// </summary>
     public partial class VistaRegistro : Window
     {
+        private Comentador ComentadorX;
         public VistaRegistro()
         {
             InitializeComponent();
+        }
+
+        private void BotonAceptar_Click(object sender, RoutedEventArgs e)
+        {
+            ComentadorX = new Comentador();
+
         }
     }
 }

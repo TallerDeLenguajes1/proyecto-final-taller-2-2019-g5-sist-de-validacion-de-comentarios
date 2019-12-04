@@ -6,17 +6,17 @@ using System.Threading.Tasks;
 
 namespace Biblioteca_de_Clases
 {
-    class Categoria
+    abstract class Categoria
     {
-        public static float CalcularPeso(int puntos, Comentario comentario)
+        public virtual int CalcularPeso(int puntos, Comentario comentario)
         {
-            return 0;
+            return puntos;
         }
 
     }
     class Neutral : Categoria
     {
-        public static int CalcularPeso(int puntos, Comentario comentario)
+        public override int CalcularPeso(int puntos, Comentario comentario)
         {
             return puntos;
         }
@@ -24,7 +24,7 @@ namespace Biblioteca_de_Clases
 
     class Pesimista : Categoria
     {
-        public static int CalcularPeso(int puntos, Comentario comentario)
+        public override int CalcularPeso(int puntos, Comentario comentario)
         {
             int peso;
 

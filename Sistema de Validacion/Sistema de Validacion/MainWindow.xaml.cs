@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Biblioteca_de_Clases;
 
 namespace Sistema_de_Validacion
 {
@@ -20,6 +21,7 @@ namespace Sistema_de_Validacion
     /// </summary>
     public partial class MainWindow : Window
     {
+        readonly List<Comentador> ListaDeComentadores;
         public MainWindow()
         {
             InitializeComponent();

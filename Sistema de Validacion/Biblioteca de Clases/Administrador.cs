@@ -13,17 +13,56 @@ namespace Biblioteca_de_Clases
         PaginaWeb pagina;
 
 
-        private int idAdministrador1;
-        private string nombre1;
+        //private int idAdministrador1;
+        //private string nombre1;
 
-        public int IdAdministrador { get => idAdministrador1; set => idAdministrador1 = value; }
-        public string Nombre { get => nombre1; set => nombre1 = value; }
-        internal PaginaWeb Pagina { get => pagina; set => pagina = value; }
+        //public int IdAdministrador { get => idAdministrador1; set => idAdministrador1 = value; }
+        //public string Nombre { get => nombre1; set => nombre1 = value; }
+        //internal PaginaWeb Pagina { get => pagina; set => pagina = value; }
 
         public Administrador(int idAdministrador, string nombre)
         {
-            this.idAdministrador = idAdministrador;
-            this.nombre = nombre;
+            this.IdAdministrador = idAdministrador;
+            this.Nombre = nombre;
+        }
+
+        public int IdAdministrador
+        {
+            get
+            {
+                return idAdministrador;
+            }
+
+            set
+            {
+                idAdministrador = value;
+            }
+        }
+
+        public string Nombre
+        {
+            get
+            {
+                return nombre;
+            }
+
+            set
+            {
+                nombre = value;
+            }
+        }
+
+        internal PaginaWeb Pagina
+        {
+            get
+            {
+                return pagina;
+            }
+
+            set
+            {
+                pagina = value;
+            }
         }
 
         public static void AgregarComentador(Comentador nuevoComentador)
