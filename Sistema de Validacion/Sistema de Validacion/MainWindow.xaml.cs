@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Biblioteca_de_Clases;
 
 namespace Sistema_de_Validacion
 {
@@ -20,9 +21,26 @@ namespace Sistema_de_Validacion
     /// </summary>
     public partial class MainWindow : Window
     {
+
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        Conexion nuevaConexion = new Conexion();
+
+        private void BotonLogeo_Click(object sender, RoutedEventArgs e)
+        {
+            Vistas.VistaLogueo nuevaVistaLogeo = new Vistas.VistaLogueo(nuevaConexion);
+
+            nuevaVistaLogeo.ShowDialog();
+        }
+
+        private void BotonRegistro_Click(object sender, RoutedEventArgs e)
+        {
+            Vistas.VistaRegistro nuevaVistaRegistro = new Vistas.VistaRegistro(nuevaConexion);
+
+            nuevaVistaRegistro.ShowDialog();
         }
     }
 }
