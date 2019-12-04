@@ -145,7 +145,25 @@ namespace Biblioteca_de_Clases
 
             try
             {
-                cmd = new MySqlCommand("Select contenido from tcomentarios where validez=" + validez, cn);
+                int idEmpresa = 0;
+
+                cmd = new MySqlCommand("Select idempresas from tempresas where nombre='" + empresa + "'", cn);
+
+                dr = cmd.ExecuteReader();
+
+                if (dr.HasRows)
+                {
+                    while (dr.Read())
+                    {
+                        idEmpresa = dr.GetInt32(0);
+                    }
+                }
+
+                dr.Close();
+
+
+
+                cmd = new MySqlCommand("Select contenido from tcomentarios where validez=" + validez + " and idempresa=" + idEmpresa, cn);
 
                 dr = cmd.ExecuteReader();
 
@@ -173,19 +191,21 @@ namespace Biblioteca_de_Clases
             return filas;
         }
 
-        public string modificar(int id, string nombre, string apellidos, string fecha)
+        public void ModificarComentario(int validez, string contenido)
         {
-            string salida = "Registro modificado Con éxito";
+            string salida = "No se pudo modificar el registro";
             try
             {
-                cmd = new MySqlCommand("update Alumnos set Nombre='" + nombre + "',Apellido='" + apellidos + "' where id_Alumno=" + id, cn);
+                cmd = new MySqlCommand("update tcomentarios set validez=" + validez + " where contenido='" + contenido + "'", cn);
                 cmd.ExecuteNonQuery();
+
+                salida = "Registro modificado Con éxito";
             }
             catch (Exception ex)
             {
                 salida = "No se conecto: " + ex.ToString();
             }
-            return salida;
+            MessageBox.Show(salida);
         }
 
         public string borrar(int id)

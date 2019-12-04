@@ -79,7 +79,11 @@ namespace Biblioteca_de_Clases
             }
         }
 
-        private void PorcentajeComentarios(DateTime inicio, DateTime fin)//
+        /// <summary>
+        /// Porcentaje Comentarios: Calcula el porcentaje de comentarios positivos que realiza un comentador
+        /// en un determinado intervalo de tiempo.
+        /// </summary>
+        private void PorcentajeComentarios(DateTime inicio, DateTime fin)
         {
             int contPos = 0, contNeg = 0, contTot = 0, intFechaMayor, intFechaMenor;
             List<Comentario> it = this.admin.Pagina.ListaDeComentarios;

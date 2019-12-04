@@ -55,7 +55,11 @@ namespace Biblioteca_de_Clases
             }
         }
 
-        public void OfrecerRedesSociales()//si un comentario es positivo, muestra el listado de redes sociales de la empresa
+        /// <summary>
+        /// Ofrecer Redes Sociales: método que muestra el listado de redes sociales de una determinada
+        /// empresa si el comentario realizado es positivo.
+        /// </summary>
+        public void OfrecerRedesSociales()
         {
             var redesSociales = empresaPropietaria.RedesSociales;
 
@@ -68,7 +72,12 @@ namespace Biblioteca_de_Clases
             listaDeComentarios.Add(nuevoComentario);
 
         }
-        private void validarComentario(Comentario comentarioAValidar)// se encarga de determinar si el comentario es valido o no
+
+        /// <summary>
+        /// Validar Comentario: determina si un comentario es válido o no, verificando que el usuario
+        /// sea un comentador registrado.
+        /// </summary>
+        private void validarComentario(Comentario comentarioAValidar)
         {
             if (listaDeComentadores.Contains(comentarioAValidar.comentarioDuenio))//aqui verifica que el usuario que comento sea un comentador valido
             {

@@ -8,12 +8,12 @@
         Title="VistaEmpresa" Height="450" Width="500.545">
     <Grid>
         <TextBlock HorizontalAlignment="Left" Margin="61,48,0,0" TextWrapping="Wrap" Text="Registro Empresa" VerticalAlignment="Top" TextAlignment="Center" FontSize="22"/>
-        <TextBlock HorizontalAlignment="Left" Margin="61,129,0,0" TextWrapping="Wrap" Text="Nombre" VerticalAlignment="Top" FontSize="16"/>
-        <TextBlock HorizontalAlignment="Left" Margin="61,166,0,0" TextWrapping="Wrap" Text="Razón Social" VerticalAlignment="Top" FontSize="16"/>
-        <TextBlock HorizontalAlignment="Left" Margin="61,201,0,0" TextWrapping="Wrap" Text="Rubro" VerticalAlignment="Top" FontSize="16" RenderTransformOrigin="0.543,1.403"/>
-        <TextBox Name="boxNombre" HorizontalAlignment="Left" Height="29" Margin="181,126,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="200" FontSize="16"/>
-        <TextBox Name="boxRazon" HorizontalAlignment="Left" Height="30" Margin="181,163,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="200" FontSize="16"/>
-        <TextBox Name="boxRubro" HorizontalAlignment="Left" Height="30" Margin="181,202,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="200" FontSize="16"/>
+        <TextBlock HorizontalAlignment="Left" Margin="61,144,0,0" TextWrapping="Wrap" Text="Nombre" VerticalAlignment="Top" FontSize="16"/>
+        <TextBlock HorizontalAlignment="Left" Margin="61,181,0,0" TextWrapping="Wrap" Text="Razón Social" VerticalAlignment="Top" FontSize="16"/>
+        <TextBlock HorizontalAlignment="Left" Margin="61,216,0,0" TextWrapping="Wrap" Text="Rubro" VerticalAlignment="Top" FontSize="16" RenderTransformOrigin="0.543,1.403"/>
+        <TextBox Name="boxNombre" HorizontalAlignment="Left" Height="29" Margin="181,141,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="200" FontSize="16"/>
+        <TextBox Name="boxRazon" HorizontalAlignment="Left" Height="30" Margin="181,178,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="200" FontSize="16"/>
+        <TextBox Name="boxRubro" HorizontalAlignment="Left" Height="30" Margin="181,217,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="200" FontSize="16"/>
         <Button Name="botonAceptar" Content="Aceptar" HorizontalAlignment="Left" Height="33" Margin="305,326,0,0" VerticalAlignment="Top" Width="139" Background="#FF9B14B0" Foreground="White" FontSize="16" Click="BotonAceptar_Click"/>
         <GridSplitter HorizontalAlignment="Left" Height="371" Margin="229,-92,0,0" VerticalAlignment="Top" Width="5" RenderTransformOrigin="0.5,0.5" Background="#FF9B14B0">
             <GridSplitter.RenderTransform>

@@ -25,7 +25,11 @@ namespace Biblioteca_de_Clases
             return pesoComentario;
         }*/
 
-        public string CalificarComentario() //CALIFICA UN COMENTARIO EN FUNCION A SU VALOR
+        /// <summary>
+        /// Cambiar Tipo: Califica un comentario en función a la puntuación que el comentador
+        /// da a la empresa.
+        /// </summary>
+        public string CalificarComentario() 
         {
             string calificacion;
 

@@ -66,6 +66,9 @@ namespace Biblioteca_de_Clases
 
         }
 
+        /// <summary>
+        /// Método: EstadoDeComentarios: Indica si se muestran o no los comentarios realizados
+        /// </summary>
         public static void EstadoDeComentarios(PaginaWeb pagina)
         {
             if (pagina.EstadoComentarios)

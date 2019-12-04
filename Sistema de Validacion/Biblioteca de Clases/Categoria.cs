@@ -8,6 +8,10 @@ namespace Biblioteca_de_Clases
 {
     public class Categoria
     {
+        /// <summary>
+        /// Calcular Peso: método que calcula el peso de un comentario realizado dependiendo de la Categoria del Comentador.
+        /// Redefiniéndose en cada categoria.
+        /// </summary>
         public static float CalcularPeso(int puntos, Comentario comentario)
         {
             return 0;

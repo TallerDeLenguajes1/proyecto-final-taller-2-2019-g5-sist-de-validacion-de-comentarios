@@ -14,3 +14,39 @@ C:\Users\Nico\Desktop\Taller\isa\proyecto-final-taller-2-2019-g5-sist-de-validac
 C:\Users\Nico\Desktop\Taller\isa\proyecto-final-taller-2-2019-g5-sist-de-validacion-de-comentarios-Impl1\Sistema de Validacion\Biblioteca de Clases\bin\Debug\MySql.Data.xml
 C:\Users\Nico\Desktop\Taller\isa\proyecto-final-taller-2-2019-g5-sist-de-validacion-de-comentarios-Impl1\Sistema de Validacion\Biblioteca de Clases\bin\Debug\Renci.SshNet.xml
 C:\Users\Nico\Desktop\Taller\isa\proyecto-final-taller-2-2019-g5-sist-de-validacion-de-comentarios-Impl1\Sistema de Validacion\Biblioteca de Clases\obj\Debug\Biblioteca de Clases.csproj.CopyComplete
+C:\Users\Isabella\Desktop\proyecto-final-taller-2-2019-g5-sist-de-validacion-de-comentarios-master\Sistema de Validacion\Biblioteca de Clases\bin\Debug\Biblioteca de Clases.dll
+C:\Users\Isabella\Desktop\proyecto-final-taller-2-2019-g5-sist-de-validacion-de-comentarios-master\Sistema de Validacion\Biblioteca de Clases\bin\Debug\Biblioteca de Clases.pdb
+C:\Users\Isabella\Desktop\proyecto-final-taller-2-2019-g5-sist-de-validacion-de-comentarios-master\Sistema de Validacion\Biblioteca de Clases\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Isabella\Desktop\proyecto-final-taller-2-2019-g5-sist-de-validacion-de-comentarios-master\Sistema de Validacion\Biblioteca de Clases\bin\Debug\Google.Protobuf.dll
+C:\Users\Isabella\Desktop\proyecto-final-taller-2-2019-g5-sist-de-validacion-de-comentarios-master\Sistema de Validacion\Biblioteca de Clases\bin\Debug\MySql.Data.dll
+C:\Users\Isabella\Desktop\proyecto-final-taller-2-2019-g5-sist-de-validacion-de-comentarios-master\Sistema de Validacion\Biblioteca de Clases\bin\Debug\Renci.SshNet.dll
+C:\Users\Isabella\Desktop\proyecto-final-taller-2-2019-g5-sist-de-validacion-de-comentarios-master\Sistema de Validacion\Biblioteca de Clases\bin\Debug\Google.Protobuf.xml
+C:\Users\Isabella\Desktop\proyecto-final-taller-2-2019-g5-sist-de-validacion-de-comentarios-master\Sistema de Validacion\Biblioteca de Clases\bin\Debug\MySql.Data.xml
+C:\Users\Isabella\Desktop\proyecto-final-taller-2-2019-g5-sist-de-validacion-de-comentarios-master\Sistema de Validacion\Biblioteca de Clases\bin\Debug\Renci.SshNet.xml
+C:\Users\Isabella\Desktop\proyecto-final-taller-2-2019-g5-sist-de-validacion-de-comentarios-master\Sistema de Validacion\Biblioteca de Clases\obj\Debug\Biblioteca de Clases.csprojAssemblyReference.cache
+C:\Users\Isabella\Desktop\proyecto-final-taller-2-2019-g5-sist-de-validacion-de-comentarios-master\Sistema de Validacion\Biblioteca de Clases\obj\Debug\Biblioteca de Clases.csproj.CoreCompileInputs.cache
+C:\Users\Isabella\Desktop\proyecto-final-taller-2-2019-g5-sist-de-validacion-de-comentarios-master\Sistema de Validacion\Biblioteca de Clases\obj\Debug\Biblioteca de Clases.csproj.CopyComplete
+C:\Users\Isabella\Desktop\proyecto-final-taller-2-2019-g5-sist-de-validacion-de-comentarios-master\Sistema de Validacion\Biblioteca de Clases\obj\Debug\Biblioteca de Clases.dll
+C:\Users\Isabella\Desktop\proyecto-final-taller-2-2019-g5-sist-de-validacion-de-comentarios-master\Sistema de Validacion\Biblioteca de Clases\obj\Debug\Biblioteca de Clases.pdb
+C:\Users\Isabella\Desktop\proyecto-final-taller-2-2019-g5-sist-de-validacion-de-comentarios-master\Sistema de Validacion\Biblioteca de Clases\bin\Debug\itextsharp.dll
+C:\Users\Isabella\Desktop\proyecto-final-taller-2-2019-g5-sist-de-validacion-de-comentarios-master\Sistema de Validacion\Biblioteca de Clases\bin\Debug\itextsharp.xml
+C:\Users\Isabella\Desktop\proyecto-final-taller-2-2019-g5-sist-de-validacion-de-comentarios-master\Sistema de Validacion\Biblioteca de Clases\bin\Debug\NLog.dll
+C:\Users\Isabella\Desktop\proyecto-final-taller-2-2019-g5-sist-de-validacion-de-comentarios-master\Sistema de Validacion\Biblioteca de Clases\bin\Debug\NLog.xml
+C:\Users\Nico\Desktop\proyecto-final-taller-2-2019-g5-sist-de-validacion-de-comentarios-master\Sistema de Validacion\Biblioteca de Clases\bin\Debug\Biblioteca de Clases.dll
+C:\Users\Nico\Desktop\proyecto-final-taller-2-2019-g5-sist-de-validacion-de-comentarios-master\Sistema de Validacion\Biblioteca de Clases\bin\Debug\Biblioteca de Clases.pdb
+C:\Users\Nico\Desktop\proyecto-final-taller-2-2019-g5-sist-de-validacion-de-comentarios-master\Sistema de Validacion\Biblioteca de Clases\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Nico\Desktop\proyecto-final-taller-2-2019-g5-sist-de-validacion-de-comentarios-master\Sistema de Validacion\Biblioteca de Clases\bin\Debug\Google.Protobuf.dll
+C:\Users\Nico\Desktop\proyecto-final-taller-2-2019-g5-sist-de-validacion-de-comentarios-master\Sistema de Validacion\Biblioteca de Clases\bin\Debug\itextsharp.dll
+C:\Users\Nico\Desktop\proyecto-final-taller-2-2019-g5-sist-de-validacion-de-comentarios-master\Sistema de Validacion\Biblioteca de Clases\bin\Debug\MySql.Data.dll
+C:\Users\Nico\Desktop\proyecto-final-taller-2-2019-g5-sist-de-validacion-de-comentarios-master\Sistema de Validacion\Biblioteca de Clases\bin\Debug\NLog.dll
+C:\Users\Nico\Desktop\proyecto-final-taller-2-2019-g5-sist-de-validacion-de-comentarios-master\Sistema de Validacion\Biblioteca de Clases\bin\Debug\Renci.SshNet.dll
+C:\Users\Nico\Desktop\proyecto-final-taller-2-2019-g5-sist-de-validacion-de-comentarios-master\Sistema de Validacion\Biblioteca de Clases\bin\Debug\Google.Protobuf.xml
+C:\Users\Nico\Desktop\proyecto-final-taller-2-2019-g5-sist-de-validacion-de-comentarios-master\Sistema de Validacion\Biblioteca de Clases\bin\Debug\itextsharp.xml
+C:\Users\Nico\Desktop\proyecto-final-taller-2-2019-g5-sist-de-validacion-de-comentarios-master\Sistema de Validacion\Biblioteca de Clases\bin\Debug\MySql.Data.xml
+C:\Users\Nico\Desktop\proyecto-final-taller-2-2019-g5-sist-de-validacion-de-comentarios-master\Sistema de Validacion\Biblioteca de Clases\bin\Debug\NLog.xml
+C:\Users\Nico\Desktop\proyecto-final-taller-2-2019-g5-sist-de-validacion-de-comentarios-master\Sistema de Validacion\Biblioteca de Clases\bin\Debug\Renci.SshNet.xml
+C:\Users\Nico\Desktop\proyecto-final-taller-2-2019-g5-sist-de-validacion-de-comentarios-master\Sistema de Validacion\Biblioteca de Clases\obj\Debug\Biblioteca de Clases.csprojAssemblyReference.cache
+C:\Users\Nico\Desktop\proyecto-final-taller-2-2019-g5-sist-de-validacion-de-comentarios-master\Sistema de Validacion\Biblioteca de Clases\obj\Debug\Biblioteca de Clases.csproj.CoreCompileInputs.cache
+C:\Users\Nico\Desktop\proyecto-final-taller-2-2019-g5-sist-de-validacion-de-comentarios-master\Sistema de Validacion\Biblioteca de Clases\obj\Debug\Biblioteca de Clases.csproj.CopyComplete
+C:\Users\Nico\Desktop\proyecto-final-taller-2-2019-g5-sist-de-validacion-de-comentarios-master\Sistema de Validacion\Biblioteca de Clases\obj\Debug\Biblioteca de Clases.dll
+C:\Users\Nico\Desktop\proyecto-final-taller-2-2019-g5-sist-de-validacion-de-comentarios-master\Sistema de Validacion\Biblioteca de Clases\obj\Debug\Biblioteca de Clases.pdb

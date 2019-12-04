@@ -9,8 +9,7 @@
     <Grid>
         <TextBlock HorizontalAlignment="Center" Margin="244,85,230,0" TextWrapping="Wrap" Text="Bienvenido Administrador" VerticalAlignment="Top" Foreground="#FF9B14B0" FontSize="24" FontFamily="Arial Rounded MT Bold" Width="339"/>
         <Button Name="botonAgregarEmpresa" Content="Agregar Empresa" HorizontalAlignment="Left" Margin="85,181,0,0" VerticalAlignment="Top" Width="211" Height="40" Background="#FF9B14B0" FontSize="18" Foreground="White" Click="botonAgregarEmpresa_Click"/>
-        <Button Name="botonAgregarComentador" Content="Agregar Comentador" HorizontalAlignment="Left" Height="40" Margin="461,181,0,0" VerticalAlignment="Top" Width="211" Background="#FF9B14B0" Foreground="White" FontSize="18"/>
-        <Button Name="botonVerComentarios" Content="Ver Comentarios" HorizontalAlignment="Left" Height="40" Margin="286,255,0,0" VerticalAlignment="Top" Width="210" Background="#FF9B14B0" Foreground="White" FontSize="18" Click="BotonVerComentarios_Click"/>
+        <Button Name="botonVerComentarios" Content="Ver Comentarios" HorizontalAlignment="Left" Height="40" Margin="455,181,0,0" VerticalAlignment="Top" Width="210" Background="#FF9B14B0" Foreground="White" FontSize="18" Click="BotonVerComentarios_Click"/>
         <Button x:Name="botonDesconectar" Content="Desconectarse" HorizontalAlignment="Left" Height="40" Margin="286,350,0,0" VerticalAlignment="Top" Width="210" Background="#FF9B14B0" Foreground="White" FontSize="18" Click="BotonDesconectar_Click"/>
 
     </Grid>

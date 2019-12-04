@@ -5,21 +5,33 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Sistema_de_Validacion.Vistas"
         mc:Ignorable="d"
-        Title="VistaVerComentarios" Height="450" Width="800">
+        Title="VistaVerComentarios" Height="558" Width="845.818">
     <Grid>
-        <Button Name="botonAceptar" Content="Aceptar" HorizontalAlignment="Left" Margin="358,344,0,0" VerticalAlignment="Top" Width="74"/>
-        <ComboBox Name="comboEmpresa" HorizontalAlignment="Left" Margin="108,78,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="ComboEmpresa_SelectionChanged"/>
-        <TextBlock HorizontalAlignment="Left" Margin="134,57,0,0" TextWrapping="Wrap" Text="Empresa" VerticalAlignment="Top"/>
-        <ListBox HorizontalAlignment="Left" Height="100" Margin="358,57,0,0" VerticalAlignment="Top" Width="271" SelectionChanged="ListBox_SelectionChanged"/>
-        <TextBlock HorizontalAlignment="Left" Margin="420,36,0,0" TextWrapping="Wrap" Text="Comentarios Pendientes" VerticalAlignment="Top"/>
-        <ListBox HorizontalAlignment="Left" Height="100" Margin="108,222,0,0" VerticalAlignment="Top" Width="198" SelectionChanged="ListBox_SelectionChanged_1"/>
-        <TextBlock HorizontalAlignment="Left" Margin="134,201,0,0" TextWrapping="Wrap" Text="Comentarios Rechazados" VerticalAlignment="Top"/>
-        <ListBox HorizontalAlignment="Left" Height="100" Margin="512,222,0,0" VerticalAlignment="Top" Width="198" SelectionChanged="ListBox_SelectionChanged_2"/>
-        <TextBlock HorizontalAlignment="Left" Margin="556,201,0,0" TextWrapping="Wrap" Text="Comentarios Aceptados" VerticalAlignment="Top"/>
-        <Button Name="botonAceptarComentario" Content="Aceptar Comentario" HorizontalAlignment="Left" Margin="634,62,0,0" VerticalAlignment="Top" Width="127" IsEnabled="False"/>
-        <Button Name="botonRechazarComentario" Content="Rechazar Comentario" HorizontalAlignment="Left" Margin="635,108,0,0" VerticalAlignment="Top" Width="126" IsEnabled="False"/>
-        <Button x:Name="botonAceptarComentarioRechazado" Content="Aceptar Comentario" HorizontalAlignment="Left" Margin="134,328,0,0" VerticalAlignment="Top" Width="127" IsEnabled="False"/>
-        <Button x:Name="botonRechazarComentarioAceptado" Content="Rechazar Comentario" HorizontalAlignment="Left" Margin="556,328,0,0" VerticalAlignment="Top" Width="126" IsEnabled="False"/>
+        <Button Name="botonAceptar" Content="Aceptar" HorizontalAlignment="Left" Margin="339,473,0,0" VerticalAlignment="Top" Width="108" FontSize="18" Foreground="White" Background="#FF9B14B0" Height="35" Click="BotonAceptar_Click"/>
+        <ComboBox Name="comboEmpresa" HorizontalAlignment="Left" Margin="33,135,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="ComboEmpresa_SelectionChanged" FontSize="16" IsDropDownOpen="True"/>
+        <TextBlock HorizontalAlignment="Left" Margin="33,112,0,0" TextWrapping="Wrap" Text="Empresa" VerticalAlignment="Top" FontSize="16"/>
+        <ListBox Name="boxComentariosPendientes" HorizontalAlignment="Left" Height="100" Margin="360,135,0,0" VerticalAlignment="Top" Width="271" SelectionChanged="ListBox_SelectionChanged" FontSize="16"/>
+        <TextBlock HorizontalAlignment="Left" Margin="360,105,0,0" TextWrapping="Wrap" Text="Comentarios Pendientes" VerticalAlignment="Top" FontSize="16"/>
+        <ListBox Name="boxComentariosRechazados" HorizontalAlignment="Left" Height="100" Margin="34,331,0,0" VerticalAlignment="Top" Width="198" SelectionChanged="ListBox_SelectionChanged_1" FontSize="16"/>
+        <TextBlock HorizontalAlignment="Left" Margin="34,309,0,0" TextWrapping="Wrap" Text="Comentarios Rechazados" VerticalAlignment="Top" FontSize="16"/>
+        <ListBox Name="boxComentariosAceptados" HorizontalAlignment="Left" Height="100" Margin="565,330,0,0" VerticalAlignment="Top" Width="198" SelectionChanged="ListBox_SelectionChanged_2" FontSize="16"/>
+        <TextBlock HorizontalAlignment="Left" Margin="566,309,0,0" TextWrapping="Wrap" Text="Comentarios Aceptados" VerticalAlignment="Top" FontSize="16"/>
+        <Button Name="botonAceptarComentario" Content="Aceptar Comentario" HorizontalAlignment="Left" Margin="636,159,0,0" VerticalAlignment="Top" Width="127" IsEnabled="False" Background="#FF9B14B0" Foreground="White" Click="BotonAceptarComentario_Click"/>
+        <Button Name="botonRechazarComentario" Content="Rechazar Comentario" HorizontalAlignment="Left" Margin="637,203,0,0" VerticalAlignment="Top" Width="126" IsEnabled="False" Background="#FF9B14B0" Foreground="White" Click="BotonRechazarComentario_Click"/>
+        <Button x:Name="botonAceptarComentarioRechazado" Content="Aceptar Comentario" HorizontalAlignment="Left" Margin="68,441,0,0" VerticalAlignment="Top" Width="127" IsEnabled="False" Background="#FF9B14B0" Foreground="White" Click="BotonAceptarComentarioRechazado_Click"/>
+        <Button x:Name="botonRechazarComentarioAceptado" Content="Rechazar Comentario" HorizontalAlignment="Left" Margin="609,441,0,0" VerticalAlignment="Top" Width="126" IsEnabled="False" Background="#FF9B14B0" Foreground="White" Click="BotonRechazarComentarioAceptado_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="34,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24" FontWeight="Bold"><Run Text="Mostrar "/><Run Text="Comentarios Empresas"/></TextBlock>
+        <GridSplitter HorizontalAlignment="Left" Height="733" Margin="392,-286,0,0" VerticalAlignment="Top" Width="5" RenderTransformOrigin="0.5,0.5" Background="#FF9B14B0">
+            <GridSplitter.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-90.126"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </GridSplitter.RenderTransform>
+        </GridSplitter>
+        <Separator HorizontalAlignment="Left" Height="48" Margin="33,263,0,0" VerticalAlignment="Top" Width="730" Background="#FF9B14B0"/>
 
     </Grid>
 </Window>

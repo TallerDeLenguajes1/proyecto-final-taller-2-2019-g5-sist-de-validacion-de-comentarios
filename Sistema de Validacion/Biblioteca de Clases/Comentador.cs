@@ -22,7 +22,10 @@ namespace Biblioteca_de_Clases
 
         Categoria tipoComentador;
 
-        public void CambiarPositivismo(Comentario nuevoComentario) // AGREGA UN COMENTARIO POSITIVO O NEGATIVO EN FUNCION A LOS PUNTOS DE ESTE
+        /// <summary>
+        /// Cambiar Positivismo: AGREGA UN COMENTARIO POSITIVO O NEGATIVO EN FUNCION A LOS PUNTOS DE ESTE
+        /// </summary>
+        public void CambiarPositivismo(Comentario nuevoComentario) 
         {
             if (nuevoComentario.CalificarComentario() == "positivo")
             {
@@ -42,7 +45,11 @@ namespace Biblioteca_de_Clases
             return pesoCalculado;
         }*/
 
-        public void CambiarTipo() //CAMBIA EL TIPO DE COMENTADOR DEPENDIENDO DE LA CANTIDAD DE COMENTARIOS POSITIVOS O NEGATIVOS QUE TENGA
+
+        /// <summary>
+        /// Cambiar Tipo: CAMBIA EL TIPO DE COMENTADOR DEPENDIENDO DE LA CANTIDAD DE COMENTARIOS POSITIVOS O NEGATIVOS QUE TENGA
+        /// </summary>
+        public void CambiarTipo() 
         {
             if (ListaDeComentarios.Count() * 0.6 <= cantidadPositivos)
             {
